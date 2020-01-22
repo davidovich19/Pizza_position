@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 5px;
+}
+
+header {
+	background-color: #af2024;
+	padding: 20px 0 20px;
+}
+
+.container {
+	max-width: 960px;
+	margin: auto;
+}
+
+.main-block {
+	padding: 19px 0 19px;
+	background-image: url('../images/bcg-pic.png');
+	background-position: center;
+	background-size: cover;
+	height: 818px;
+	border-bottom: solid 33px #3f0002;
+	position: relative;
+	z-index: 1;
+}
+
+.logo {
+	max-width: 349px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.video-window {
+	max-width: 710px;
+	position: absolute;
+	bottom: -139px;
+	left: 406px;
+}
+
+.video-title {
+	padding: 32px 18px 28px;
+	background-color: #98161b;
+}
+
+.video-title h3 {
+	color: #ffffff;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+}
+
+.video-block {
+	background-color: #ffffff;
+	padding: 62px 69px 62px 74px 
+}
+
+.video-display {
+	margin: auto;
+	max-width: 567px;
+	height: 346px;
+	margin: 0 0 31px;
+}
+
+.video-info {
+	color: #98161b;
+	font-family: 'Arvo', serif;
+	font-size: 13px;
+}
+
+.video-info span {
+	color: #7d7d7d;
+	font-family: 'Arvo', serif;
+	font-size: 13px;
+}
+
+.video-info span:after {
+	content: '';
+	display: block;
+	border-bottom: dotted;
+	width: 44px;
+	height: 2px;
+	color: #98161b;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.video-info p {
+	color: #98161b;
+	font-family: 'Arvo', serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+footer {
+	background-color: #000000;
+	padding: 227px 0 227px;
+}
+
+.soc a {
+	display: block;
+	position: fixed;
+	top: 262px;
+	right: 5px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #850409;
+	color: #ffffff;
+	z-index: 2;
+}
+
+.soc a:before {
+	content: "\f39e";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
+
+.soc-twit a {
+	display: block;
+	position: fixed;
+	top: 312px;
+	right: 5px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #98161b;
+	color: #ffffff;
+	z-index: 2;
+}
+
+.soc-twit a:before {
+	content: "\f099";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
